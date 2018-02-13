@@ -1,7 +1,7 @@
 $(call inherit-product, device/lge/d855/full_d855.mk)
 
 # Inherit some common Aokp stuff.
-$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 PRODUCT_NAME := aokp_d855
 
