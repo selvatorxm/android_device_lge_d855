@@ -5,10 +5,6 @@ $(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 PRODUCT_NAME := aokp_d855
 
-# AOKP Device Maintainers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Mehmet KÖKLÜ (croatan)"
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
     PRODUCT_NAME="g3_global_com" \
